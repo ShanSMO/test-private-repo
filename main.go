@@ -13,7 +13,7 @@ type HealthResponse struct {
 
 func healthHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(HealthResponse{Status: "ok-k"})
+	json.NewEncoder(w).Encode(HealthResponse{Status: "ok-kk"})
 }
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
